@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey - Polina Shliakhina</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/process_form.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Which "BoJack Horseman" Character Are You?</h1>
+    </header>
+    <main>
+      <form action="process.php" method="post" name="form">
+        <fieldset>
+          <legend id="survey_1">User Info</legend>
+          <div id="input_1">
+            <label for="first_name">First Name</label>
+            <br />
+            <input
+              type="text"
+              id="first_name"
+              name="first_name_2"
+              class="user_input"
+              value=""
+            />
+            <span> </span>
+            <div id="inform_1"></div>
+          </div>
+          <div id="input_2">
+            <label for="last_name">Last Name</label>
+            <br />
+            <input
+              type="text"
+              id="last_name"
+              name="last_name_2"
+              class="user_input"
+              value=""
+            />
+            <span> </span>
+            <div id="inform_2"></div>
+          </div>
+          <div id="input_3">
+            <label for="email">Email Address</label>
+            <br />
+            <input
+              type="email"
+              id="email"
+              name="email_address"
+              class="user_input"
+              value=""
+            />
+            <span> </span>
+            <div id="inform_3"></div>
+          </div>
+          <div id="input_4">
+            <label for="phone">Phone Number</label>
+            <br />
+            <input
+              type="text"
+              id="phone"
+              name="phone_number"
+              class="user_input"
+              value=""
+            />
+            <span> </span>
+            <div id="inform_4"></div>
+          </div>
+          <div id="input_5">
+            <label for="sulley">Students Address</label>
+            <br />
+            <input
+              type="text"
+              id="sulley"
+              name="sulley_address"
+              class="user_input"
+              value=""
+            />
+            <span> </span>
+            <div id="inform_5"></div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend id="survey_2">
+            Which "BoJack Horseman" Character Are You?
+          </legend>
+          <div id="question_1">
+            <p class="questions">1) Pick a defining characteristic</p>
+            <div>
+              <input
+                type="radio"
+                id="positive_id"
+                name="defining_character"
+                value="positive"
+              />
+              <label for="positive_id">Positive</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="ambitious_id"
+                name="defining_character"
+                value="ambitious"
+              />
+              <label for="ambitious_id">Ambitious</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="creative_id"
+                name="defining_character"
+                value="creative"
+              />
+              <label for="creative_id">Creative</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="witty_id"
+                name="defining_character"
+                value="witty"
+              />
+              <label for="witty_id">Witty</label>
+            </div>
+          </div>
+          <div id="question_2">
+            <p class="questions">2) Pick a fatal flaw</p>
+            <div>
+              <input
+                type="radio"
+                id="naiveness_id"
+                name="fatal_flaw"
+                value="naiveness"
+              />
+              <label for="naiveness_id">Naiveness</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="self_destructive_id"
+                name="fatal_flaw"
+                value="self-destructive tendencies"
+              />
+              <label for="self_destructive_id"
+                >Self-destructive tendencies</label
+              >
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="persistence_id"
+                name="fatal_flaw"
+                value="lack of persistence"
+              />
+              <label for="persistence_id">Lack of persistence</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="stubbornness_id"
+                name="fatal_flaw"
+                value="stubbornness"
+              />
+              <label for="stubbornness_id">Stubbornness</label>
+            </div>
+          </div>
+          <div id="submit_form">
+            <button id="submit" name="submit">Submit</button>
+          </div>
+        </fieldset>
+        <fieldset id="hide">
+          <legend id="survey_3">Results</legend>
+          <div id="survey_results">
+            <span id="submit_span"> </span>
+            <span id="badge_info"> </span>
+            <img id="badge" src="#" alt="" />
+            <span id="badge_link">
+              <a href="" target="_blank" id="a_link">Badge Link</a>
+            </span>
+          </div>
+        </fieldset>
+      </form>
+    </main>
+    <footer id="credits">Created by Polina Shliakhina</footer>
+  </body>
+</html>
