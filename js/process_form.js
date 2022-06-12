@@ -256,9 +256,7 @@ function formSetup() {
         ". \r\n\r\nBased on these answers, you are...";
 
       // MR PEANUTBUTTER //
-      if (
-        selected_btn_1 == "positive"
-      ) {
+      if (selected_btn_1 == "positive") {
         badge.setAttribute("src", "img/mr_peanutbutter.png"); // Badge Image
         span[1].firstChild.nodeValue = "\r\nMR PEANUTBUTTER\r\n";
         span[2].firstChild.nodeValue = "Access the badge: ";
@@ -269,34 +267,37 @@ function formSetup() {
       }
 
       // TODD //
-      else if (
-        selected_btn_1 == "creative"
-      ) {
+      else if (selected_btn_1 == "creative") {
         badge.setAttribute("src", "img/todd_chavez.jpeg"); // Badge Image
         span[1].firstChild.nodeValue = "\r\nTODD\r\n";
 
         span[2].firstChild.nodeValue = "Access the badge: ";
-        a_link.setAttribute("href", "https://students.cah.ucf.edu/~po171501/dig3716c/assignment2/img/todd_chavez.jpeg");
+        a_link.setAttribute(
+          "href",
+          "https://students.cah.ucf.edu/~po171501/dig3716c/assignment2/img/todd_chavez.jpeg"
+        );
       }
 
       // DIANE //
-      else if (
-        selected_btn_1 == "ambitious"
-      ) {
-        badge.setAttribute("src", "img/diane.gif"); // Badge Image
+      else if (selected_btn_1 == "ambitious") {
+        badge.setAttribute("src", "img/diane.jpeg"); // Badge Image
         span[1].firstChild.nodeValue = "\r\nDIANE\r\n";
         span[2].firstChild.nodeValue = "Access the badge: ";
-        a_link.setAttribute("href", "https://students.cah.ucf.edu/~po171501/dig3716c/assignment2/img/diane.gif");
+        a_link.setAttribute(
+          "href",
+          "https://students.cah.ucf.edu/~po171501/dig3716c/assignment2/img/diane.jpeg"
+        );
       }
 
       // BOJACK //
-      else if (
-        selected_btn_1 == "witty"
-      ) {
-        badge.setAttribute("src", "img/bojack.gif"); // Badge Image
+      else if (selected_btn_1 == "witty") {
+        badge.setAttribute("src", "img/bojack.jpeg"); // Badge Image
         span[1].firstChild.nodeValue = "\r\nBOJACK\r\n";
         span[2].firstChild.nodeValue = "Access the badge: ";
-        a_link.setAttribute("href", "https://students.cah.ucf.edu/~po171501/dig3716c/assignment2/img/bojack.gif");
+        a_link.setAttribute(
+          "href",
+          "https://students.cah.ucf.edu/~po171501/dig3716c/assignment2/img/bojack.jpeg"
+        );
       }
     } else {
       badge.setAttribute("src", "");
