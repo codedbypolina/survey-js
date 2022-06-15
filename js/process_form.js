@@ -9,7 +9,7 @@ let hint_text = [
   "Please enter your last name!",
   "Please enter a valid email address! (must contain @)",
   "Please enter a valid phone number! (must contain -)",
-  "Please enter a valid sulley address! (must contain ~)",
+  "Please enter a valid sulley address! (paste http://students.cah.ucf.edu/~ke23)",
 ];
 
 let blur_text = [
